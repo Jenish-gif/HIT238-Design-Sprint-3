@@ -1,0 +1,93 @@
+
+  body {
+    font-family: Arial;
+    background: lightblue;
+    padding: 120px;
+  }
+
+  h1 {
+    border-style: solid;
+    border-width: 10px 1px;
+    text-align: center;
+    background: white;
+  }
+  
+  form{
+    padding: 30px;
+    text-align: center;
+    background: white;
+  }
+
+  div1{
+    display: block;
+    width: 100%;
+    line-height: 2em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    }
+
+ p {
+    text-align: center;
+    background: white;
+    }
+ .btn-group button{
+    background-color: #1c9c7c; 
+    border: 1px solid #0a1412; 
+    font-size:  2em;
+    color: white; 
+    width: inherit;
+    text-align: center;
+    padding: 60px;
+    cursor: pointer;
+    }
+
+ .btn-group a{
+    width: 100%;
+   }
+   
+ .btn-group button:hover {
+    background-color: #0a3502; 
+ }
+    
+.quizQuestion {
+  background-color: #fff;
+  width: inherit;
+  overflow: hidden;
+  }
+
+.quizHead{
+  padding: 2rem;
+}
+h2{
+  padding: 1rem;
+  text-align: center;
+  margin: 0;
+
+}
+
+#submit{
+        background-color: #16b65e;
+        color: white;
+        border: none;
+        display: block;
+        width: 100%;
+        cursor: pointer;
+        font-size: 1.2rem;
+        padding: 1.2rem;
+}
+#submit:hover{
+    background-color: #04bec4;
+  }
+
+ul{
+  list-style-type: none;
+  padding: 0;
+}
+ul li{
+  font-size: 1.3rem;
+  margin: 1rem 0;
+}
+ul li label{
+  cursor: pointer;
+}
